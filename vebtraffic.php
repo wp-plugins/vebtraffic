@@ -5,7 +5,7 @@
   Plugin URI: http://vebtraffic.com/
   Description: Vebtraffic.com
   Author: Vebtraffic
-  Version: 1.2.0
+  Version: 2.2.6
   Author URI: http://vebtraffic.com/
   Text Domain: wp-vebtraffic
  */
