@@ -1,0 +1,61 @@
+.field_div {border: 1px solid #ddd;border-radius: 0;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;box-sizing: border-box;color: #32373c;font-family: inherit;font-size: 14px; font-weight: inherit;margin: 1px;max-width: 62%;outline: 0 none;padding: 3px 5px;transition: border-color 0.05s ease-in-out 0s;height: 35px;line-height: 24px;border-radius: 2px;margin-top: 6px;}
+.rsp,.rsp2,.rsp3 {display: none;}
+.rsp .notice,.rsp2 .notice,.rsp3 .notice {margin-left: 0px;}
+.sgbg {padding: 24px 24px;background-color: #FFF;}
+.sgbg1 {width: 50%;float: left; display:block;}
+.sgbg2 {width: 50%;float: left;}
+.sgbg3 {width: 50%;float: left; display:block;}
+.sgbg1 input{ width: 62%;height: 35px;margin-top: 6px;border-radius: 2px;}
+.sgbg3 input{ width: 62%;height: 35px;margin-top: 6px;border-radius: 2px;}
+.sgbg1 .submit1 {width: 90px !important;float: left !important; margin-right: 11px !important;}
+.sgbg3 .submit1 {width: 90px !important;float: left !important; margin-right: 11px !important;}
+.sgbg1 .ihl {margin-top: 6px;}
+.sgbg3 .ihl {margin-top: 6px;}
+.sgbgh2 {border-bottom: solid 1px #E6E6E6;padding-bottom: 13px !important; margin-bottom: 16px !important;}
+.sgbg2 input {width: 62%;height: 35px;margin-top: 6px;border-radius: 2px;}
+.sgbg2 .submit2 { width: 90px !important;float: left !important; margin-right: 11px !important;}
+.socl {text-align: center;padding: 12px 12px 32px;background: rgb(255, 255, 255);box-shadow: 0px 0px 8px #E8E8E8;margin: 36px 0px 5px;}
+.socl .left{ float:left; width:50%;}
+.socl .left h2{ float:none;font-size: 16px;font-weight: bold;}
+.socl .left input{width: 83%;height: 35px;margin-top: 6px;border-radius: 2px;}
+.socl .right{ float:left; width:50%;}
+.socl .right h2{ float:none;font-size: 16px; font-weight: bold;}
+.socl .right .fb{ background:url(../images/fb.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;margin-right: 8px;}
+.socl .right .tw{ background:url(../images/tw.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;margin-right: 8px;}
+.socl .right .in{ background:url(../images/in.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;margin-right: 8px;}
+.socl .right .gp{ background:url(../images/gp.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;margin-right: 8px;}
+.socl .right .pin{ background:url(../images/pin.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;margin-right: 8px;}
+.socl .right .em{ background:url(../images/em.png) no-repeat; width:47px; height:47px; text-indent:-9999px; display:block;background-size: 47px;}
+.socl .right ul{ list-style:none;display: table;margin: 0 auto;}
+.socl .right ul li{ list-style:none; float:left;}
+.logo { float:left;}
+.rdshbrd2 { float:right;}
+.topboxadchnl .field2 {height: 40px !important;}
+.topboxadchnl .field1 { width:100% !important}
+.fieldlbel2 { top: -5px !important;}
+#vl2 { top: 10px !important;}
+.btn-no:hover { color:white !important;}
+body { background:transparent !important}
+.btn-yes { color:white !important;}
+
+
+
+@media (max-width: 480px) {
+	.rdshbrd2 {float: none;display: block !important;width: 100px;color: white !important;margin: 0 auto !important;}
+	.logo {float: none;}
+.logo { width:100%; text-align:center;}
+.socl .left {float: left; width: 100%;}
+.socl .right {float: left; width: 100%;}
+.sgbg2 input {width: 100%;}
+.sgbg1 {width: 100%;}	
+.sgbg2 {width: 100%;}	
+.sgbg3 {width: 100%;}
+.sgbg3 input {width: 100%;}
+.sgbg1 input {width: 100%;}
+.field_div {max-width: 100%;}
+.sgbg1 .submit1 {width: 90px !important;float: none !important; margin-right: 11px !important;display: block; margin: 0 auto 20px !important;}
+.sgbg2 .submit2 {width: 90px !important;float: none !important; margin-right: 11px !important;display: block; margin: 0 auto 20px !important;}
+.sgbg3 .submit1 {width: 90px !important;float: none !important; margin-right: 11px !important;display: block; margin: 0 auto 20px !important;}
+.sgbg1 .ihl {text-align: center;}
+.sgbg3 .ih2 {text-align: center;}
+}
